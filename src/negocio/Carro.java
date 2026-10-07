@@ -1,10 +1,10 @@
 package negocio;
 
 public class Carro {
-    int potencia;
+    public int potencia;
     double velocidad;
 
-    void acelerar(){
+    public void acelerar(){
         velocidad += potencia;
     }
 
